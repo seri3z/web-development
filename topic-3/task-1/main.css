@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+body {
+    width: 100%;
+    min-width: 768px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+.frame {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 128px;
+    margin-top: 48px;
+}
+.header .logo{
+    text-decoration: none;
+    color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    line-height: 48px;
+}
+.header .logo img {
+    width: 48px;
+    height: 48px;
+}
+.header .logo .brand {
+    font-size: 16px;
+    font-weight: 800;
+}
+.header .menu {
+    height: 32px;
+    margin-top: 8px;
+}
+.header .menu a {
+    text-decoration: none;
+    color: #333333;
+    line-height: 32px;
+    padding: 8px;
+    border: rgba(0,0,0,0) 1px solid;
+    border-radius: 4px;
+}
+.header .menu a:hover {
+    border: rgba(0,0,0,0.2) 1px solid;
+}
+.brand {
+    width: 100%;
+    height: 384px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 128px;
+}
+.brand .logo {
+    width: 386px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brand .logo img {
+    width: 386px;
+}
+.brand .name {
+    width: 386px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brand .name h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.brand .name p {
+    margin-top: -17px;
+    margin-left: 4px;
+    font-size: 16px;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+.service .category {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.service .cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.service .cards .card {
+    width: 224px;
+    border: rgba(0,0,0,0.05) 1px solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service .cards .card:hover {
+    border: rgba(0,0,0,0.2) 1px solid;
+}
+.service .cards .card img {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 196px;
+    height: 196px;
+}
+.service .cards .card .description {
+    width: 196px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.service .price {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.service .price .button {
+    font-size: 16px;
+    padding: 8px;
+    border: rgba(0,0,0,0) 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333333;
+}
+.service .price .button:hover {
+    border: rgba(0,0,0,0.2) 1px solid;
+}
+.devices {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+.devices .category {
+     width: 100%;
+     text-align: center;
+     font-size: 32px;
+     margin-bottom: 32px;
+ }
+.devices .logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.devices .logos .logo {
+    width: 96px;
+    height: 96px;
+}
+.devices .logos .logo img{
+    width: 96px;
+    height: 96px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+.about .category {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.about .frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about .frame .contacts {
+    width: 50%;
+}
+.about .frame .contacts .category {
+    font-size: 24px;
+}
+.about .frame .contacts .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .frame .contacts .content p {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.about .frame .map {
+    width: 50%;
+}
+.about .frame .map .category{
+    font-size: 24px;
+}
+.about .frame .map iframe {
+    border-radius: 8px;
+}
+.about .copyright {
+    margin-top: 64px;
+    width: 100%;
+    text-align: center;
+}
+/* comment.html */
+.reviews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+.reviews .category {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.reviews .review {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.reviews .review .photo {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviews .review .photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.reviews .review .content {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviews .review .content .name {
+    margin-bottom: 24px;
+}
+.reviews .review .content .name a {
+    text-decoration: none;
+    font-size: 32px;
+    color: #333333;
+}
+.reviews .review .content .text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
