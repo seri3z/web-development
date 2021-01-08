@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+    <link rel="stylesheet" href="reset.css" class="css">
+    <link rel="stylesheet" href="main.css" class="css">
+</head>
+<body>
+    <div class="body">
+        <div class="form">
+            <div class="title">Оставить отзыв на товар</div>
+            <form action="https://reqbin.com/echo/post/form" method="post">
+                <!-- Имя -->
+                <label class="div1" for="name">Имя</label>
+                <input class="div2" id="name" name="name" required>
+                <!-- Email -->
+                <label class="div3" for="email">Email</label>
+                <input class="div4" id="email" name="email" required>
+                <!-- Оценка -->
+                <div class="div5">Оценка</div>
+                <div class="div6">
+                    <input id="review-1" name="review" type="radio" value="1">
+                    <label for="review-1">1 &#9733;</label>
+                    <input id="review-2" name="review" type="radio" value="2">
+                    <label for="review-2">2 &#9733;</label>
+                    <input id="review-3" name="review" type="radio" value="3">
+                    <label for="review-3">3 &#9733;</label>
+                    <input id="review-4" name="review" type="radio" value="4">
+                    <label for="review-4">4 &#9733;</label>
+                    <input id="review-5" name="review" type="radio" value="5">
+                    <label for="review-5">5 &#9733;</label>
+                </div>
+                <!-- Отзыв -->
+                <label class="div7" for="review-text">Текст отзыва</label>
+                <textarea class="div8" id="review-text"></textarea>
+                <!-- Отправить -->
+                <button class="div9" type="submit">Отправить</button>
+            </form>
+        </div>
+        <div class="search">
+            <div class="title">Найти нужный товар</div>
+            <form action="https://yandex.by/search/" method="GET">
+                <div class="div1">
+                    <label>
+                        <input name="text" placeholder="введите запрос">
+                    </label>
+                </div>
+                <button class="div2" type="submit">Найти</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
