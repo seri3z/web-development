@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram - лента</title>
+    <link rel="stylesheet" href="reset.css" class="css">
+    <link rel="stylesheet" href="main.css" class="css">
+</head>
+<body>
+    <div class="body">
+        <header>
+            <div class="logo">
+                <a href="index.html#">
+                    <img src="img/instagram-2016.svg" alt="Logo Instagram">
+                </a>
+            </div>
+            <div class="title">
+                <img src="img/instagram-1.svg" alt="Instargam">
+            </div>
+            <div class="menu">
+                <a href="photo-add.html">Добавить пост</a>
+            </div>
+        </header>
+        <main class="feed">
+            <div class="posts">
+                <div class="post">
+                    <div class="title">Иван Иванов</div>
+                    <div class="content"><img src="https://st.depositphotos.com/1004221/1384/i/950/depositphotos_13846233-stock-photo-boardwalk-in-the-park.jpg" alt="Природа"></div>
+                    <div class="description">Прогулка по парку <a href="feed.html">#минск</a>. Красивый <a href="feed.html">#парк</a>.</div>
+                    <div class="comments">
+                        <div class="comment">
+                            <div class="name">Пётр Петров</div>
+                            <div class="text">Скорее бы лето.</div>
+                        </div>
+                        <div class="comment">
+                            <div class="name">Роман Романов</div>
+                            <div class="text">Красифое фото</div>
+                        </div>
+                    </div>
+                    <div class="comment-add">
+                        <div class="title">Добавить комментарий</div>
+                        <form action="feed.html">
+                            <div>
+                                <label for="text1"></label>
+                                <textarea id="text1" rows="3" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Добавить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="title">Сергей Сергеев</div>
+                    <div class="content"><iframe src="https://www.youtube.com/embed/CsEelKg6SfA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="description">Прогулка по лесу<a href="feed.html">#витебск</a>. Красивое <a href="feed.html">#озеро</a>.</div>
+                    <div class="comments">
+                        <div class="comment">
+                            <div class="name">Александр Александров</div>
+                            <div class="text">Скорее был лето.</div>
+                        </div>
+                        <div class="comment">
+                            <div class="name">Семён Семёнов</div>
+                            <div class="text">Хорошее освещение</div>
+                        </div>
+                    </div>
+                    <div class="comment-add">
+                        <div class="title">Добавить комментарий</div>
+                        <form action="feed.html">
+                            <div>
+                                <label for="text"></label>
+                                <textarea id="text" rows="3" required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Добавить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="copyright">2021 © Oleg Putsilo</div>
+        </footer>
+    </div>
+</body>
+</html>

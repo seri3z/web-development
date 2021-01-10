@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");
+* {
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    box-sizing: border-box;
+}
+body {
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 720px;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+    grid-template-rows: 128px 1fr 64px;
+    grid-template-columns: 1fr;
+    height: 100vh;
+}
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header > div:nth-child(3) {
+    margin-left: auto;
+}
+header .logo {
+    height: 48px;
+    margin-right: 12px;
+}
+header .logo img {
+    height: 48px;
+    position: relative;
+    top: -8px;
+}
+header .title {
+    height: 48px;
+}
+header .title img {
+    height: 48px;
+}
+header .menu a {
+    text-decoration: none;
+    padding: 4px;
+    border: rgba(0,0,0,0) 1px solid;
+    border-radius: 4px;
+}
+header .menu a:hover {
+    border: rgba(0,0,0,0.2) 1px solid;
+}
+main {
+    grid-area: main;
+}
+.index .forms {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.index .forms .title {
+    font-size: 18pt;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+.index .forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index .forms .singin {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(0,0,0,0.1) 1px solid;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+.index .forms .singin:hover {
+    border: rgba(0,0,0,0.3) 1px solid;
+}
+.index .forms .singup {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(0,0,0,0.1) 1px solid;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+.index .forms .singup:hover {
+    border: rgba(0,0,0,0.3) 1px solid;
+}
+footer {
+    height: 64px;
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+}
+.index input {
+    border: #333333 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px;
+    width: 250px;
+}
+.index button {
+    border: 1px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px;
+}
+.index .singin button {
+    background-color: rgba(0,255,0,0.25);
+}
+.index .singin button:hover {
+    background-color: rgba(0,255,0,0.5);
+}
+.index .singup button {
+    background-color: rgba(255,0,0,0.25);
+}
+.index .singup button:hover {
+    background-color: rgba(255,0,0,0.5);
+}
+.index form div:first-child {
+    margin-top: 0;
+}
+.index form div {
+    margin-bottom: 12px;
+    width: 250px;
+}
+.index form div:last-child {
+    margin-bottom: 24px;
+}
+.index form .checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.index form .checkbox label {
+    text-align: center;
+}
+
+/* feed.html */
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feed .posts {
+    width: 468px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.feed .posts .post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: rgba(0,0,0,0.15) 1px solid;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.feed .posts .post:last-child {
+    margin-bottom: 0;
+}
+.feed .posts .post .title {
+    width: 100%;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+.feed .posts .post .content {
+    width: 100%;
+    height: 468px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: rgba(0,0,0,0.15) 1px solid;
+    margin-bottom: 24px;
+}
+.feed .posts .post .content img {
+    height: 100%;
+}
+.feed .posts .post .content iframe {
+    height: 100%;
+    background: black;
+}
+.feed .posts .post .description {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.feed .posts .post .comments {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feed .posts .post .comments .comment {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.feed .posts .post .comments .comment .name {
+    font-weight: 800;
+}
+.feed .posts .post .comments .comment div:first-child {
+    margin-bottom: 6px;
+}
+.feed .posts .post .comment-add {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+.feed .posts .post .comment-add .title {
+    margin-bottom: 6px;
+}
+.feed .posts .post .comment-add form textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 6px;
+    resize: none;
+    border-radius: 4px;
+    border: rgba(0,0,0,0.30) 1px solid
+}
+.feed .posts .post .comment-add form button {
+    width: 100%;
+    margin-bottom: 6px;
+    padding: 4px;
+    background: rgba(0,0,0,0.05);
+    border: rgba(0,0,0,0.2) 1px solid;
+    border-radius: 4px;
+}
+.feed .posts .post .comment-add form button:hover {
+    background: rgba(0,0,0,0.1);
+}
+/* photo-add */
+.photo-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo-add .create {
+    width: 468px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.photo-add .create .title {
+    width: 100%;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.photo-add .create form {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.photo-add .create form div {
+    width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.photo-add .create form div label {
+    margin-bottom: 12px;
+}
+.photo-add .create form div input {
+    padding: 4px;
+    border: rgba(0,0,0,0.2) 1px solid;
+    border-radius: 4px;
+}
+.photo-add .create form div textarea {
+    padding: 4px;
+    border: rgba(0,0,0,0.2) 1px solid;
+    border-radius: 4px;
+    resize: none;
+}
+.photo-add .create form .file input {
+    position: relative;
+    left: -4px;
+    border: rgba(0,0,0,0) 1px solid;
+}
+.photo-add .create form div button {
+    padding: 4px;
+    background: rgba(0,0,0,0.05);
+    border: rgba(0,0,0,0.2) 1px solid;
+    border-radius: 4px;
+}
+.photo-add .create form div button:hover {
+    background: rgba(0,0,0,0.1);
+}

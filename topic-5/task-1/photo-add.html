@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram - Опубликовать пост</title>
+    <link rel="stylesheet" href="reset.css" class="css">
+    <link rel="stylesheet" href="main.css" class="css">
+</head>
+<body>
+    <div class="body">
+        <header>
+            <div class="logo">
+                <a href="index.html#">
+                    <img src="img/instagram-2016.svg" alt="Logo Instagram">
+                </a>
+            </div>
+            <div class="title">
+                <img src="img/instagram-1.svg" alt="Instargam">
+            </div>
+            <div class="menu">
+                <a href="feed.html">Перейти к ленте</a>
+            </div>
+        </header>
+        <main class="photo-add">
+            <div class="create">
+                <div class="title">Создание поста</div>
+                <form action="feed.html" method="get">
+                    <div>
+                        <label for="name">Имя поста</label>
+                        <input id="name" name="name" type="text" required>
+                    </div>
+                    <div>
+                        <label for="hashtag">Хэштэги</label>
+                        <textarea id="hashtag" name="hashtag" rows="3" required></textarea>
+                    </div>
+                    <div class="file">
+                        <label for="file">Контент</label>
+                        <input id="file" name="file" type="file" accept="image/jpeg,image/png,video/mp4" required>
+                    </div>
+                    <div>
+                        <button type="submit">Опубликовать</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="copyright">2021 © Oleg Putsilo</div>
+        </footer>
+    </div>
+</body>
+</html>
