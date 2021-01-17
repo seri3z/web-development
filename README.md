@@ -16,3 +16,7 @@
 ## Тема 6
 Домашнее задание:
 * [Задание 1. Оформление титульной страницы реферата](https://github.com/seri3z/web-development/tree/main/topic-6/task-1)
+
+## Тема 7
+Домашнее задание:
+* [Задание 1. Прогресс бар и модальное окно](https://github.com/seri3z/web-development/tree/main/topic-7/task-1)
