@@ -12,3 +12,7 @@
 Домашнее задание:
 * [Задание 1. Соцсеть фотографий и видео (Instagram)](https://github.com/seri3z/web-development/tree/main/topic-5/task-1)
 * [Задание 2. Сайт руководств по изучению иностранных языков](https://github.com/seri3z/web-development/tree/main/topic-5/task-2)
+
+## Тема 6
+Домашнее задание:
+* [Задание 1. Оформление титульной страницы реферата](https://github.com/seri3z/web-development/tree/main/topic-6/task-1)
