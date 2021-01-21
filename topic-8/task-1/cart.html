@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="./images/logo.png" alt="Лого">
+            </div>
+            <div class="checkout">
+                <img class="cart" src="./images/cart.svg" alt="Корзина">
+            </div>
+        </header>
+        <aside>
+            <div class="group-name">Бытовая техника</div>
+            <div class="group-items">
+                <a href="#" class="link">Стиральные машины</a>
+                <a href="#" class="link">Стиральные машины</a>
+                <a href="#" class="link">Пылесосы</a>
+                <a href="#" class="link">Швейные, вышивальные машины</a>
+                <a href="#" class="link">Утюги</a>
+                <a href="#" class="link">Электровеники</a>
+                <a href="#" class="link">Сушилки для обуви</a>
+            </div>
+            <div class="group-name">Техника для кухни</div>
+            <div class="group-items">
+                <a href="#" class="link">Холодильники</a>
+                <a href="#" class="link">Кухонные плиты</a>
+                <a href="#" class="link">Морозильники</a>
+                <a href="#" class="link">Настольные плиты</a>
+                <a href="#" class="link">Ростеры, мини-печи</a>
+                <a href="#" class="link">Вытяжки</a>
+                <a href="#" class="link">Микроволновые печи</a>
+            </div>
+            <div class="group-name">Компьютерная техника</div>
+            <div class="group-items">
+                <a href="#" class="link">Ноутбуки</a>
+                <a href="#" class="link">Планшеты</a>
+                <a href="#" class="link">Компьютеры, моноблоки</a>
+                <a href="#" class="link">Игровые приставки</a>
+                <a href="#" class="link">Серверное оборудование</a>
+            </div>
+        </aside>
+        <main>
+            <div class="title">Заказать товар</div>
+            <form action="#" method="post">
+                <div class="line">
+                    <label for="name">Имя:</label>
+                    <input class="width" id="name" name="name" type="text" required>
+                </div>
+                <div class="line">
+                    <label for="surname">Фамилия:</label>
+                    <input class="width" id="surname" name="surname" type="text" required>
+                </div>
+                <div class="line">
+                    <label for="phone">Номер телефона:</label>
+                    <input class="width" id="phone" name="phone" type="tel" required>
+                </div>
+                <div class="line"><label for="email">Email:</label>
+                    <input class="width" id="email" name="email" type="email" required></div>
+                <div class="line"><p>Выберите способ доставки:</p></div>
+                <div class="line">
+                    <input class="delivery" id="delivery1" name="delivery" type="radio">
+                    <label class="mr" for="delivery1">Cамовывоз: г. Минск, ул. Немига, 5</label>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6906977081667!2d27.54730911585942!3d53.90170128009915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1611269321777!5m2!1sru!2sby" width="800" height="600" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+                <div class="line">
+                    <input class="delivery" id="delivery2" name="delivery" type="radio">
+                    <label class="mr" for="delivery2">Курьером по Минску</label>
+                    <div class="line address">
+                        <label for="address">Адрес доставки:</label>
+                        <input class="width" id="address" name="address" type="text">
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="comment">Комментарий:</label>
+                    <textarea class="width" id="comment" name="comment" cols="5"></textarea>
+                </div>
+                <div class="line">
+                    <label for="rules">Я прочитал и согласен с условиями доставки</label>
+                    <input class="rules" id="rules" name="rules" type="checkbox">
+                    <div class="layer"></div>
+                </div>
+                <div class="line">
+                    <button type="submit">Подтвердить заказ</button>
+                </div>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="contacts">
+                <div>Магазин работает с <time>10.00 - 22.00</time></div>
+                <div>Выходные дни: <time>суббота, воскресенье.</time></div>
+                <div>Адрес: <address>г. Минск, ул. Немига, д. 5.</address></div>
+                <div>Телефон: <a href="tel:+375291111111">+375(29)111-11-11</a></div>
+                <div>Skype: <a href="skype:magazin">Magazin</a></div>
+            </div>
+            <div class="copyright">
+                2021 © Oleg Putsilo
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
