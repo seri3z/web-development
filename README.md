@@ -20,3 +20,7 @@
 ## Тема 7
 Домашнее задание:
 * [Задание 1. Прогресс бар и модальное окно](https://github.com/seri3z/web-development/tree/main/topic-7/task-1)
+
+## Тема 8
+Домашнее задание:
+* [Задание 1. Форма заказа в интернет-магазине](https://github.com/seri3z/web-development/tree/main/topic-8/task-1)
