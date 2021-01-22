@@ -24,3 +24,4 @@
 ## Тема 8
 Домашнее задание:
 * [Задание 1. Форма заказа в интернет-магазине](https://github.com/seri3z/web-development/tree/main/topic-8/task-1)
+* [Задание 2. Кнопка выключатель и всплывающая подсказка](https://github.com/seri3z/web-development/tree/main/topic-8/task-2)
