@@ -1,0 +1,91 @@
+* {
+    color: black;
+    font-family: Tahoma, serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.container {
+    min-height: 100vh;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.switch {
+    width: 128px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: rgba(39, 40, 44, 0.2) 1px solid;
+    border-radius: 24px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    padding: 8px;
+    background-color: rgba(39, 40, 44, 0.1);
+    position: relative;
+    margin-bottom: 64px;
+}
+.switch [type="checkbox"] {
+    display: none;
+}
+.switch .circle {
+    width: 64px;
+    height: 32px;
+    border-radius: 16px;
+    position: absolute;
+    background-color: rgb(217, 67, 67);
+    left: 8px;
+    z-index: 1;
+}
+.switch span {
+    width: 48px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-left: 8px;
+}
+.switch span:last-child {
+    margin-right: 8px;
+}
+.switch input:checked + .circle {
+    left: 56px;
+    background-color: rgb(72, 217, 67);
+}
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltip-text {
+    margin-top: -19pt;
+    visibility: hidden;
+    width: 120px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    left: calc(100% + 16px);
+}
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+.tooltip .tooltip-text::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent gray transparent transparent;
+}
+
+
