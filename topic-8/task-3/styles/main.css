@@ -1,0 +1,51 @@
+* {
+    color: black;
+    font-family: Tahoma, serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+.container {
+    min-height: 100vh;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h1 {
+    display: block;
+    margin: 32px 0;
+}
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section:last-child {
+    margin-bottom: 64px;
+}
+section label input[type="checkbox"] {
+    display: none;
+}
+section label .word {
+    padding: 8px;
+    cursor: pointer;
+}
+section label .description {
+    padding: 8px;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border: rgb(220, 220, 220) 1px solid;
+    text-indent: 32px;
+    text-align: justify;
+    hyphens: auto;
+}
+section label input:checked ~ .description {
+    display: block;
+}
+
+
