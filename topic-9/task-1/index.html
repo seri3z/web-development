@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Стилизация формы и макет без flex и grid</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="table wrapper">
+        <div class="table__row">
+            <header class="table__cell header">
+                HEADER
+            </header>
+        </div>
+        <div class="table__row">
+            <div class="table__cell">
+                <div class="table">
+                    <div class="table__row">
+                        <aside class="table__cell aside">
+                            ASIDE
+                            <label class="aside__button" for="aside">Добавить ASIDE справа</label>
+                        </aside>
+                        <main class="table__cell main">
+                            MAIN
+                            <form class="form" action="#" method="post">
+                                <label class="form-input">
+                                    <div class="form-input__label">Имя</div>
+                                    <input class="form-input__input" name="name" type="text" placeholder="Ваше имя.." required>
+                                </label>
+                                <label class="form-input">
+                                    <div class="form-input__label">E-mail</div>
+                                    <input class="form-input__input" name="email" type="email" placeholder="some@email.com" required>
+                                </label>
+                                <label class="form-input">
+                                    <div class="form-input__label">Страна</div>
+                                    <select class="form-input__input" name="country" required>
+                                        <option value="australia">Австралия</option>
+                                        <option value="belarus">Беларусь</option>
+                                        <option value="canada">Канада</option>
+                                        <option value="usa">США</option>
+                                    </select>
+                                </label>
+                                <button class="form-button" type="submit">
+                                    Зарегистрироваться
+                                </button>
+                            </form>
+                        </main>
+                        <input class="input--hidden" id="aside" type="checkbox">
+                        <aside class="table__cell aside aside--hidden">
+                            ASIDE
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table__row">
+            <footer class="footer table__cell">
+                FOOTER
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
