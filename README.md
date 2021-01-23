@@ -26,3 +26,7 @@
 * [Задание 1. Форма заказа в интернет-магазине](https://github.com/seri3z/web-development/tree/main/topic-8/task-1)
 * [Задание 2. Кнопка выключатель и всплывающая подсказка](https://github.com/seri3z/web-development/tree/main/topic-8/task-2)
 * [Задание 3. Словарь на основе скрытых чекбоксов](https://github.com/seri3z/web-development/tree/main/topic-8/task-3)
+
+## Тема 9
+Домашнее задание:
+* [Задание 1. Стилизация формы + макет на 2-3 колонки без flex и grid](https://github.com/seri3z/web-development/tree/main/topic-9/task-1)
