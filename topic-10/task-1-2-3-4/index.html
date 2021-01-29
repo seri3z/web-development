@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS. Стилистическое оформление элементов</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="task-1">
+        <a class="title" target="_blank" href="https://github.com/AdukarIT/_Tasks_/blob/master/CSS-styles.md">
+            Задание 1. Пляж
+        </a>
+    </div>
+    <div class="task-2">
+        <a class="title" target="_blank" href="https://github.com/AdukarIT/_Tasks_/blob/master/CSS-styles.md">
+            Задание 2. Лайк
+        </a>
+        <a href="#" class="button-like">
+            <div class="button-like__text">
+                Мне нравится
+            </div>
+            <svg class="button-like__icon" xmlns="http://www.w3.org/2000/svg" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512">
+                <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268 c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514 c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482 s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514 C512,93.417,453.532,30,376,30z"/>
+            </svg>
+        </a>
+    </div>
+    <div class="task-3">
+        <a class="title" target="_blank" href="https://github.com/AdukarIT/_Tasks_/blob/master/CSS-styles.md">
+            Задание 3. Чекбокс
+        </a>
+        <label class="button-check">
+            <input type="checkbox">
+            <div class="button-check__icon"></div>
+        </label>
+    </div>
+    <div class="task-4">
+        <a class="title" target="_blank" href="https://github.com/AdukarIT/_Tasks_/blob/master/CSS-styles.md">
+            Задание 4. Header магазина
+        </a>
+        <header class="header">
+            <a href="#" class="header-logo">
+                <img class="header-logo__img" src="data:image/png;base64,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" alt="logo" />
+            </a>
+            <div class="header-search">
+                <label>
+                    <input class="header-search__input" type="text" placeholder="Найти...">
+                </label>
+            </div>
+            <div class="header-menu">
+                <a href="#" class="header-menu__link">каталог</a>
+                <a href="#" class="header-menu__link">новости</a>
+                <a href="#" class="header-menu__link">о нас</a>
+            </div>
+            <div class="header-phone">+375 (29) 111-11-11</div>
+        </header>
+    </div>
+</body>
+</html>

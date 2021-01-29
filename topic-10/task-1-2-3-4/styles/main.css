@@ -1,0 +1,178 @@
+/* Обычный 300 */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat'),
+    url('../fonts/Montserrat-Light.ttf') format('ttf');
+}
+/* Жирный 800 */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Montserrat'),
+    url('../fonts/Montserrat-ExtraBold.ttf') format('ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+}
+body {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.task-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:
+            url("../images/sun.png") top left no-repeat,
+            url("../images/sea.jpg") bottom no-repeat,
+            url("../images/sky.jpg");
+    background-size:
+            20%,
+            100% 25%,
+            cover;
+    z-index: 0;
+}
+.task-2, .task-3, .task-4 {
+    position: relative;
+    z-index: 10;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 16px;
+}
+.button-like {
+    width: 156px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: rgb(180, 180, 180) 2px solid;
+    background-color: white;
+    border-radius: 6px;
+    padding: 0 8px;
+    box-sizing: content-box;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+.button-like__text {
+    color: rgb(180, 180, 180);
+}
+.button-like__icon {
+    fill: rgb(180, 180, 180);
+    height: 32px;
+    width: 32px;
+}
+.button-like:hover {
+    border-color: rgb(0, 0, 180);
+}
+.button-like:hover > .button-like__text {
+    color: rgb(0, 0, 180);
+}
+.button-like:hover > .button-like__icon {
+    fill: rgb(0, 0, 180);
+}
+.button-like:visited {
+    border-color: rgb(180, 0, 0);
+}
+.button-like:visited > .button-like__text {
+    color: rgb(180, 0, 0);
+}
+.button-like:visited > .button-like__icon {
+    fill: rgb(180, 0, 0);
+}
+/* применение прозрачности к :visited запрещено параметрами безопасности */
+.button-like:visited:hover {
+    border-color: rgb(180, 120, 120);
+}
+.button-like:visited:hover > .button-like__text {
+    color: rgb(180, 120, 120);
+}
+.button-like:visited:hover > .button-like__icon {
+    fill: rgb(180, 120, 120);
+}
+.button-check {
+    margin: auto;
+}
+.button-check > input {
+    display: none;
+}
+.button-check__icon {
+    width: 48px;
+    height: 48px;
+    background-image: url("../images/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: -57px -5px;
+}
+.button-check > input:checked + .button-check__icon {
+    background-position: -1px -5px;
+}
+.task-4 {
+    width: auto;
+    height: auto;
+}
+.task-4 > .title {
+    margin-bottom: 8px;
+}
+.header {
+    background-color: white;
+    width: 768px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo__img {
+    width: 64px;
+    height: 64px;
+}
+.header-search__input {
+    outline: none;
+    border: rgb(200, 200, 200) 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+}
+.header-search {
+    margin: 0 auto;
+}
+.header-search__input:hover {
+    border: rgb(100, 100, 100) 1px solid;
+}
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 32px;
+}
+.header-menu__link {
+    color: rgb(100, 100, 100);
+    margin-right: 16px;
+}
+.header-menu__link:last-child {
+    margin-right: 0;
+}
+.header-phone {
+    color: rgb(100, 100, 100);
+}
