@@ -37,3 +37,10 @@
 * [Задание 2. Лайк](https://github.com/seri3z/web-development/tree/main/topic-10/task-1-2-3-4)
 * [Задание 3. Чекбокс](https://github.com/seri3z/web-development/tree/main/topic-10/task-1-2-3-4)
 * [Задание 4. Header магазина](https://github.com/seri3z/web-development/tree/main/topic-10/task-1-2-3-4)
+
+## Тема 11
+Практика
+
+## Тема 12
+Домашнее задание:
+* [Задание 1. Header для лэндинга курсов подготовки к ЦТ от Адукар](https://github.com/seri3z/web-development/tree/main/topic-12/task-1)
