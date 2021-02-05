@@ -44,3 +44,4 @@
 ## Тема 12
 Домашнее задание:
 * [Задание 1. Header для лэндинга курсов подготовки к ЦТ от Адукар](https://github.com/seri3z/web-development/tree/main/topic-12/task-1)
+* [Задание 2. Сверстать макет страницы новостей ВКонтакте](https://github.com/seri3z/web-development/tree/main/topic-12/task-2)
