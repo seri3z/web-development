@@ -1,0 +1,98 @@
+/* Обычный 300 */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans'),
+    url('../fonts/OpenSans-Regular.ttf') format('ttf');
+}
+/* Жирный 800 */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans'),
+    url('../fonts/OpenSans-Bold.ttf') format('ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+}
+body {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top: 64px;
+}
+.menu-item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.menu-item__high {
+    height: 500px;
+}
+.menu-item__high > img {
+    height: 300px;
+}
+.menu-item__normal {
+    height: 250px;
+}
+.menu-item__normal > img {
+    height: 100px;
+}
+.menu-item__title {
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700;
+    z-index: 2;
+}
+.menu-item__description {
+    font-weight: 400;
+    line-height: 1.25;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.menu-item__image {
+    height: auto;
+    width: auto;
+}
+.color__orange {
+    background-color: rgb(236, 190, 122);
+}
+.color__purple {
+    background-color: rgb(157, 171, 221);
+}
+.color__red {
+    background-color: rgb(229, 139, 136);
+}
+.color__blue {
+    background-color: rgb(127, 195, 239);
+}
+.color__brown {
+    background-color: rgb(223, 199, 193);
+}
