@@ -34,9 +34,6 @@ body {
     z-index: 1;
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #edeef0;
 }
 .header {
@@ -145,16 +142,16 @@ body {
     margin-top: 2px;
 }
 .main {
+    top: 64px;
     width: 960px;
-    margin-top: 64px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin: 0 auto;
     position: relative;
 }
 .aside-left {
     width: 162px;
+    position: absolute;
+    top: 0;
+    left: 0;
     margin-left: 8px;
 }
 .menu {
@@ -264,11 +261,15 @@ body {
 }
 .feed {
     width: 565px;
+    position: absolute;
+    top: 0;
+    left: 166px;
 }
 .aside-right {
     width: 230px;
-    position: fixed;
-    right: 230px;
+    position: absolute;
+    top: 0;
+    left: 732px;
 }
 .aside-right-menu {
     background-color: white;
