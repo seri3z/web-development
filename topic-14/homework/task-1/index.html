@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 1. Прыгающий мяч</title>
+    <style>
+        .block {
+            height: 512px;
+            width: 1024px;
+            margin: 64px auto;
+            border-left: 3px black solid;
+            border-right: 3px black solid;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        input {
+            display: none;
+        }
+        img {
+            position: absolute;
+            width: 48px;
+            height: 48px;
+            left: 0;
+            transition: left .2s ease-in;
+        }
+        input:checked + img {
+            left: calc(100% - 48px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="block">
+        <label for="ball">
+            <input id="ball" type="checkbox" >
+            <img class="ball" src="ball.png" alt="Мяч">
+        </label>
+    </div>
+</body>
+</html>
