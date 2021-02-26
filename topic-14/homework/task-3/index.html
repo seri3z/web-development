@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3. Спрайты</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .subzero {
+            margin-top: 64px;
+            height: 270px;
+            width: 132px;
+            background-image: url(subzero.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0 0;
+        }
+        .subzero:hover {
+            animation: logo 300ms steps(6);
+        }
+        @keyframes logo {
+            from {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: -792px 0;
+            }
+            to {
+                background-position: 0 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="subzero"></div>
+</body>
+</html>
