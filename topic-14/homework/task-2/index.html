@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 2. Вентилятор</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .propeller {
+            margin-top: 64px;
+            height: 128px;
+            width: 128px;
+            transform: rotate(0deg);
+            transition: transform 3s ease-in-out;
+        }
+        .propeller:hover {
+            transform: rotate(1080deg);
+        }
+    </style>
+</head>
+<body>
+    <img class="propeller" alt="" src="propeller.png">
+</body>
+</html>
