@@ -1,0 +1,21 @@
+.devices {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: row;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-bottom: 128px;
+
+  .devices-title {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .devices-logo {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
+  }
+}

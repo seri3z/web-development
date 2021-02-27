@@ -1,0 +1,41 @@
+.brand {
+  width: 100%;
+  height: 384px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 128px;
+
+  .brand-logo {
+    width: 386px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 386px;
+    }
+  }
+
+  .brand-name {
+    width: 386px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      font-size: 64px;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-top: -17px;
+      margin-left: 4px;
+      font-size: 16px;
+    }
+  }
+
+}

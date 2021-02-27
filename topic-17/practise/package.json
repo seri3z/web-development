@@ -1,0 +1,10 @@
+{
+  "name": "topic-16-17",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "node_modules/.bin/node-sass scss --watch -o css"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

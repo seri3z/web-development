@@ -1,0 +1,14 @@
+// main.scss
+
+//base
+@import 'base/reset';
+@import 'base/typography';
+//layout
+@import 'layout/header';
+@import 'layout/brand';
+@import 'layout/services';
+@import 'layout/devices';
+@import 'layout/about';
+@import 'layout/reviews';
+//theme
+@import 'theme/theme';

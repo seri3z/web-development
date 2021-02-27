@@ -1,0 +1,53 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
+  margin-bottom: 128px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+
+  .about-title {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .about-contacts__title {
+    grid-column: 1/2;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about-contacts__content {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+  }
+
+  .about-map__title {
+    grid-column: 2/-1;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about-map__iframe {
+    grid-column: 2/-1;
+    border-radius: 8px;
+  }
+
+  .about-copyright {
+    grid-column: 1/3;
+    margin-top: 64px;
+    text-align: center;
+  }
+}
