@@ -72,7 +72,7 @@
 * [Задание 1. Сервис ремонта мобильных телефонов (на SCSS)](https://github.com/seri3z/web-development/tree/main/topic-17/practise)
 
 Домашнее задание:
-* [Задание 1. Реализовать страницу http://designclub.by на SCSS]()
+* [Задание 1. Реализовать страницу http://designclub.by на SCSS](https://github.com/seri3z/web-development/tree/main/topic-17/homework)
 
 ## Тема 18 (Bootstrap)
 Практика:
