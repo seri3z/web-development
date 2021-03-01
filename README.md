@@ -74,11 +74,7 @@
 Домашнее задание:
 * [Задание 1. Реализовать страницу http://designclub.by на SCSS](https://github.com/seri3z/web-development/tree/main/topic-17/homework)
 
-## Тема 18 (Bootstrap)
+## Тема 18 (Bootstrap и CSS Grid)
 Практика:
-* [Задание 1. Форма заказа]()
-
-## Тема 19 (CSS Grid)
-Практика:
-* [Задание 1. Реализовать разметку для блоков аналогично странице каталога онлайнера]()
-
+* [Задание 1. Форма заказа]
+* [Задание 2. Реализовать разметку для блоков аналогично странице каталога онлайнера](https://github.com/seri3z/web-development/tree/main/topic-18/practise/task-2)
