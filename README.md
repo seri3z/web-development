@@ -78,3 +78,9 @@
 Практика:
 * [Задание 1. Форма заказа]
 * [Задание 2. Реализовать разметку для блоков аналогично странице каталога онлайнера](https://github.com/seri3z/web-development/tree/main/topic-18/practise/task-2)
+
+## Итоговая работа по вёрстке 
+* [Ссылка на репозиторий](https://github.com/seri3z/final-work-layout)
+* [Страница 1](https://seri3z.github.io/final-work-layout/public/index.html)
+* [Страница 2](https://seri3z.github.io/final-work-layout/public/second.html)
+* [Страница 3](https://seri3z.github.io/final-work-layout/public/third.html)
